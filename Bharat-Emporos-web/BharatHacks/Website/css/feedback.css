@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: #eee;
+}
+.main{
+	width: 100vw;
+	height: 60vh;
+	position: relative;
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(back.png) center center;;
+}
+*{
+	transition: all ease .4s;
+}
+.circ{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	position: absolute;
+	top: 30vh;
+	left: 17vw;
+	transform: translate(-50%,-50%);
+	background:url(ldc.jpg) center center;
+	background-size: cover;
+}
+.heading{
+	position: absolute;
+	top: 38vh;
+	left: 24vw;
+	color: #fff;
+	transform: translateY(-50%);
+	font-family: 'Open sans', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	height: 200px;
+	width: 400px;
+	text-align: left;
+}
+.small{
+	font-size: 22px;
+}
+.box{
+	position: relative;
+	margin-right: 150px;
+	margin-left: auto;
+	transform: translateY(24vh);
+	height: 100px;
+	width: 400px;
+}
+.but{
+	position: absolute;
+	height: 40px;
+	width: 130px;
+	border: 2px solid #fff;
+	left: 0;
+	top: 15px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+.main2{
+	width: 100vw;
+	position: relative;
+}
+.heading-1{
+	height: 100px;
+	width: 300px;
+	color: #000;
+	font-family: 'Open sans', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: auto;
+	transform: translateY(5vh);
+}
+.box1{
+	position: relative;
+	height: 135vh;
+	width: 80vw;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(0vh);
+}
+
+.division{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+	margin-top: 50px;
+	height: 30vh;
+}
+.content{
+	line-height: 30px;
+	position: absolute;
+	width: 72vw;
+	left: 40vw;
+	transform: translateX(-50%);
+	text-align: left;
+	color: #000;
+	font-size: 18px;
+	font-family: 'Open sans', sans-serif;
+	font-weight: 300;
+	top: 15px;
+	letter-spacing: 2px;
+}
+.rm{
+	color: rgba(41, 128, 185,1.0);
+	padding-left: 18px;
+	cursor: pointer;
+}
+.stars{
+	position: absolute;
+	right: 20px;
+	height: 20px;
+	width: 150px;
+	color: rgba(243, 156, 18,1.0);
+	font-size: 18px;
+	top: 0px;
+}
+.know-more{
+	width: 200px;
+	height: 100px;
+	color: rgba(41, 128, 185,1.0);
+	font-family: 'Open sans', sans-serif;
+	font-size: 20px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 300;
+	transform: translateY(30px);
+	cursor: pointer;
+}
