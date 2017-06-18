@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_open_shop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bharathacks.com.bharatproviders.OpenShop">
+
+    <LinearLayout
+        android:id="@+id/detslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#069c88"
+            android:gravity="center"
+            android:text="Create Shop"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/c_name_of_shop"
+            android:hint="name of shop"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"/>
+
+        <EditText
+            android:id="@+id/c_password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"/>
+        <EditText
+            android:id="@+id/c_phone_no"
+            android:inputType="number"
+            android:hint="Contact Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"/>
+        <EditText
+            android:id="@+id/c_address"
+            android:hint="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"/>
+        <Button
+            android:id="@+id/c_signup"
+            android:text="Create Shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/c_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="already have a Shop? Open it!!"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
